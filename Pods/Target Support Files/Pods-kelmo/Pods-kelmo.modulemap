@@ -1,0 +1,6 @@
+module Pods_kelmo {
+  umbrella header "Pods-kelmo-umbrella.h"
+
+  export *
+  module * { export * }
+}
