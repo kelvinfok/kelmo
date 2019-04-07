@@ -1,4 +1,4 @@
-module Pods_kelmo {
+framework module Pods_kelmo {
   umbrella header "Pods-kelmo-umbrella.h"
 
   export *

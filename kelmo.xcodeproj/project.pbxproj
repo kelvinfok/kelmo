@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0109593050AEEB0FCA2E4875 /* Pods_kelmo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A479C6A1C6F7812596D91E7 /* Pods_kelmo.framework */; };
 		8DC146F8225A52CA0039AFAC /* kelmo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC146F6225A52CA0039AFAC /* kelmo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DFFDB5474AD38BB5B1C20EF /* libPods-kelmo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 658B57724E383211C248DC2F /* libPods-kelmo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		658B57724E383211C248DC2F /* libPods-kelmo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kelmo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A479C6A1C6F7812596D91E7 /* Pods_kelmo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kelmo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC146F3225A52CA0039AFAC /* kelmo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = kelmo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC146F6225A52CA0039AFAC /* kelmo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kelmo.h; sourceTree = "<group>"; };
 		8DC146F7225A52CA0039AFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -25,7 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DFFDB5474AD38BB5B1C20EF /* libPods-kelmo.a in Frameworks */,
+				0109593050AEEB0FCA2E4875 /* Pods_kelmo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +72,7 @@
 		E84FAE3A67B51C1CB63945B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				658B57724E383211C248DC2F /* libPods-kelmo.a */,
+				6A479C6A1C6F7812596D91E7 /* Pods_kelmo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
